@@ -8,8 +8,11 @@ Deploying a static web application to AWS using GitHub involves several steps. Y
 
 ## Prerequisites
 1.**AWS Account:** Sign up if you don’t have one.
+
 2.**AWS CLI:** Install and configure it on your local machine.
+
 3.**GitHub Account:** Create a repository for your static site.
+
 ## Step 1: Create an S3 Bucket
 Log in to the AWS Management Console.
 Navigate to S3 and click Create bucket.
