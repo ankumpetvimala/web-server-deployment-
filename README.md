@@ -83,7 +83,7 @@ Deploy a scalable web application on AWS Cloud using various AWS services, ensur
 
 3. **Origin Settings:**
 
-  - **Origin Domain Name:** Enter your S3 bucket URL (e.g., my-static-site-bucket.s3.amazonaws.com).
+      - **Origin Domain Name:** Enter your S3 bucket URL (e.g., my-static-site-bucket.s3.amazonaws.com).
   
 4. **Default Cache Behavior Settings:** Adjust as needed.
   
