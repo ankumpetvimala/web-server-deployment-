@@ -26,20 +26,22 @@ Deploy a scalable web application on AWS Cloud using various AWS services, ensur
 
 5.Bucket Configuration: Click Create bucket.
 
+### Step 2: Configure the S3 Bucket for Static Website Hosting
+
+1.Go to the newly created bucket.
+2.Properties tab → Static website hosting.
+3.Static website hosting:
+    Hosting type: Select "Use this bucket to host a website".
+    Index document: Enter index.html.
+    Error document: Enter error.html (optional).
+4.Save changes.
 
 
-Step 2: Configure the S3 Bucket for Static Website Hosting
-Go to the newly created bucket.
-Properties tab → Static website hosting.
-Static website hosting:
-Hosting type: Select "Use this bucket to host a website".
-Index document: Enter index.html.
-Error document: Enter error.html (optional).
-Save changes.
-Step 3: Set Bucket Policy for Public Access
-Go to the Permissions tab.
+### Step 3: Set Bucket Policy for Public Access
 
-Bucket Policy: Click Edit and paste the following JSON policy, replacing my-static-site-bucket with your bucket name:
+1.Go to the Permissions tab.
+
+2.Bucket Policy: Click Edit and paste the following JSON policy, replacing my-static-site-bucket with your bucket name:
 
 {
   "Version": "2012-10-17",
@@ -52,16 +54,24 @@ Bucket Policy: Click Edit and paste the following JSON policy, replacing my-stat
     }
   ]
 }
-Save changes.
 
-Step 4: Upload Your Static Site Files
-Click on the bucket name to enter it.
-Upload:
-Click Upload.
-Add your index.html, styles.css, and other files.
-Click Upload.
-Step 5: Set Up AWS CloudFront (Optional, but recommended for better performance)
-Navigate to CloudFront and click Create Distribution.
+3.Save changes.
+
+### Step 4: Upload Your Static Site Files
+
+1.Click on the bucket name to enter it.
+
+2.Upload:
+    Click Upload.
+    
+    Add your index.html, styles.css, and other files.
+    
+    Click Upload.
+    
+### Step 5: Set Up AWS CloudFront (Optional, but recommended for better performance)
+
+1.Navigate to CloudFront and click Create Distribution.
+
 Select: Get Started with the Web delivery method.
 Origin Settings:
 Origin Domain Name: Enter your S3 bucket URL (e.g., my-static-site-bucket.s3.amazonaws.com).
