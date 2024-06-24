@@ -50,31 +50,31 @@ Deploy a scalable web application on AWS Cloud using various AWS services, ensur
 
 2.**Bucket Policy**: Click **Edit** and paste the following JSON policy, replacing my-static-site-bucket with your bucket name:
 
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Principal": "*",
-      "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::my-static-site-bucket/*"
-    }
-  ]
-}
-
+        {
+         "Version": "2012-10-17",
+         "Statement": [
+          {
+            "Effect": "Allow",
+            "Prinicipal": "*",
+            "Action": "s3.GetObject",
+            "resource": "arn:aws:s3:::my-static-site-bucket/*"
+            }
+           ]
+          }
+                   
 3.Save changes.
 
 ### Step 4: Upload Your Static Site Files
 
-1.Click on the bucket name to enter it.
+1.**Click on the bucket name** to enter it.
 
-2.Upload:
-    Click Upload.
+2.**Upload:**
+    Click **Upload.**
     
     Add your index.html, styles.css, and other files.
     
-    Click Upload.
-    
+    Click **Upload.**
+        
 ### Step 5: Set Up AWS CloudFront (Optional, but recommended for better performance)
 
 1.Navigate to CloudFront and click Create Distribution.
