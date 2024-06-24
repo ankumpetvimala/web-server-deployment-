@@ -51,7 +51,7 @@ Deploy a scalable web application on AWS Cloud using various AWS services, ensur
 2.**Bucket Policy**: Click **Edit** and paste the following JSON policy, replacing my-static-site-bucket with your bucket name:
 
         {
-         "Version": "2012-10-17",
+         '"Version":' "2012-10-17",
          "Statement": [
           {
             "Effect": "Allow",
