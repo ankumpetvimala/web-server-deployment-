@@ -82,18 +82,20 @@ Deploy a scalable web application on AWS Cloud using various AWS services, ensur
 2.**Select:** Get Started with the Web delivery method.
 
 3.**Origin Settings:**
+
 - **Origin Domain Name:** Enter your S3 bucket URL (e.g., my-static-site-bucket.s3.amazonaws.com).
-- 
+  
 4.**Default Cache Behavior Settings:** Adjust as needed.
   
 5.**Distribution Settings:** Customize as needed.
+
 6.**Create Distribution.**
 
 ### Step 6: Create a GitHub Repository
 
 1.Go to GitHub and create a new repository.
 
-2. Clone the repository to your local machine and add your static site files.
+2.Clone the repository to your local machine and add your static site files.
    
 ### Step 7: Set Up GitHub Actions for Deployment
 
@@ -101,7 +103,8 @@ Deploy a scalable web application on AWS Cloud using various AWS services, ensur
 
 2.Create a deploy.yml file inside the .github/workflows directory.
 
-#### Example deploy.yml File:
+### Example deploy.yml File:
+
 name: Deploy to S3
 
 on:
