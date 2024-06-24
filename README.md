@@ -73,25 +73,35 @@ Deploy a scalable web application on AWS Cloud using various AWS services, ensur
     
     Add your index.html, styles.css, and other files.
     
-    Click **Upload.**
+    Click Upload.
         
 ### Step 5: Set Up AWS CloudFront (Optional, but recommended for better performance)
 
-1.Navigate to CloudFront and click Create Distribution.
+1.Navigate to **CloudFront** and click **Create Distribution.**
 
-Select: Get Started with the Web delivery method.
-Origin Settings:
-Origin Domain Name: Enter your S3 bucket URL (e.g., my-static-site-bucket.s3.amazonaws.com).
-Default Cache Behavior Settings: Adjust as needed.
-Distribution Settings: Customize as needed.
-Create Distribution.
-Step 6: Create a GitHub Repository
-Go to GitHub and create a new repository.
-Clone the repository to your local machine and add your static site files.
-Step 7: Set Up GitHub Actions for Deployment
-In your repository, create a .github/workflows directory.
-Create a deploy.yml file inside the .github/workflows directory.
-Example deploy.yml File:
+2.**Select:** Get Started with the Web delivery method.
+
+3.**Origin Settings:**
+- **Origin Domain Name:** Enter your S3 bucket URL (e.g., my-static-site-bucket.s3.amazonaws.com).
+- 
+4.**Default Cache Behavior Settings:** Adjust as needed.
+  
+5.**Distribution Settings:** Customize as needed.
+6.**Create Distribution.**
+
+### Step 6: Create a GitHub Repository
+
+1.Go to GitHub and create a new repository.
+
+2. Clone the repository to your local machine and add your static site files.
+   
+### Step 7: Set Up GitHub Actions for Deployment
+
+1.In your repository, create a .github/workflows directory.
+
+2.Create a deploy.yml file inside the .github/workflows directory.
+
+#### Example deploy.yml File:
 name: Deploy to S3
 
 on:
