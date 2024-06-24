@@ -19,9 +19,9 @@ Deploy a scalable web application on AWS Cloud using various AWS services, ensur
 
 3.**Bucket Settings:**
 
--- Bucket name: Enter a unique name (e.g., my-static-site-bucket).
+- Bucket name: Enter a unique name (e.g., my-static-site-bucket).
         
--- Region: Choose your preferred region.
+- Region: Choose your preferred region.
     
 4.Block Public Access Settings: Uncheck "Block all public access" and acknowledge the warning.
 
