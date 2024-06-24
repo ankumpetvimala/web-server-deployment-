@@ -1,0 +1,9 @@
+sudo -i
+  yum install httpd -y
+  cd /var
+  ls
+cd /var/www/html
+  vim index.html
+  vim styles.css
+systemctl httpd restart
+systemctl status httpd
