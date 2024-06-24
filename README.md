@@ -19,22 +19,28 @@ Deploy a scalable web application on AWS Cloud using various AWS services, ensur
 
 3.**Bucket Settings:**
 
-- Bucket name: Enter a unique name (e.g., my-static-site-bucket).
+- **Bucket name:** Enter a unique name (e.g., my-static-site-bucket).
         
-- Region: Choose your preferred region.
+- **Region:** Choose your preferred region.
     
-4.Block Public Access Settings: Uncheck "Block all public access" and acknowledge the warning.
+4.**Block Public Access Settings:** Uncheck "Block all public access" and acknowledge the warning.
 
-5.Bucket Configuration: Click Create bucket.
+5.**Bucket Configuration:** Click **Create bucket.**
 
 ### Step 2: Configure the S3 Bucket for Static Website Hosting
 
 1.Go to the newly created bucket.
-2.Properties tab → Static website hosting.
-3.Static website hosting:
-    Hosting type: Select "Use this bucket to host a website".
-    Index document: Enter index.html.
-    Error document: Enter error.html (optional).
+
+2.**Properties** tab **→ Static website hosting.**
+
+3.**Static website hosting:**
+
+   - **Hosting type:** Select "Use this bucket to host a website".
+    
+   - **Index document:** Enter index.html.
+    
+   - **Error document:** Enter error.html (optional).
+    
 4.Save changes.
 
 
