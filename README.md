@@ -2,9 +2,7 @@
 ## Task: Deploy a scalable web application on AWS cloud
 
 ## Objective:
-Deploy a scalable web application on AWS Cloud using various AWS services, ensuring high availability, performance, and security.
-
-Deploying a static web application to AWS using GitHub involves several steps. You can use AWS S3 for hosting the static site, AWS CloudFront for content delivery, and GitHub Actions for automating the deployment process. Here's a step-by-step guide:
+Deploy a scalable web application on AWS Cloud using various AWS services, ensuring high availability, performance, and security. You can use AWS S3 for hosting the static site, AWS CloudFront for content delivery, and GitHub Actions for automating the deployment process. Here's a step-by-step guide:
 
 ## Prerequisites
 1.**AWS Account:** Sign up if you don’t have one.
@@ -14,13 +12,22 @@ Deploying a static web application to AWS using GitHub involves several steps. Y
 3.**GitHub Account:** Create a repository for your static site.
 
 ## Step 1: Create an S3 Bucket
-Log in to the AWS Management Console.
-Navigate to S3 and click Create bucket.
-Bucket Settings:
-Bucket name: Enter a unique name (e.g., my-static-site-bucket).
-Region: Choose your preferred region.
-Block Public Access Settings: Uncheck "Block all public access" and acknowledge the warning.
-Bucket Configuration: Click Create bucket.
+
+1.Log in to the AWS Management Console.
+
+2.Navigate to S3 and click Create bucket.
+
+3.Bucket Settings:
+
+    Bucket name: Enter a unique name (e.g., my-static-site-bucket).
+    Region: Choose your preferred region.
+    
+4.Block Public Access Settings: Uncheck "Block all public access" and acknowledge the warning.
+
+5.Bucket Configuration: Click Create bucket.
+
+
+
 Step 2: Configure the S3 Bucket for Static Website Hosting
 Go to the newly created bucket.
 Properties tab → Static website hosting.
