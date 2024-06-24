@@ -46,9 +46,9 @@ Deploy a scalable web application on AWS Cloud using various AWS services, ensur
 
 ### Step 3: Set Bucket Policy for Public Access
 
-1.Go to the Permissions tab.
+1.Go to the **Permissions** tab.
 
-2.Bucket Policy: Click Edit and paste the following JSON policy, replacing my-static-site-bucket with your bucket name:
+2.**Bucket Policy**: Click **Edit** and paste the following JSON policy, replacing my-static-site-bucket with your bucket name:
 
 {
   "Version": "2012-10-17",
