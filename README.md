@@ -139,9 +139,9 @@ jobs:
 
 3. **New repository secret:**
 
-  - `AWS_ACCESS_KEY_ID:` Enter your AWS access key ID.
+      - `AWS_ACCESS_KEY_ID:` Enter your AWS access key ID.
   
-  - `AWS_SECRET_ACCESS_KEY:` Enter your AWS secret access key.
+      - `AWS_SECRET_ACCESS_KEY:` Enter your AWS secret access key.
   
 ### Step 9: Commit and Push Your Code
 
