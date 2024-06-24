@@ -11,16 +11,15 @@ Deploy a scalable web application on AWS Cloud using various AWS services, ensur
 
 3.**GitHub Account:** Create a repository for your static site.
 
-## Step 1: Create an S3 Bucket
+### Step 1: Create an S3 Bucket
 
-1.Log in to the AWS Management Console.
+1.**Log in to the AWS Management Console.**
 
-2.Navigate to S3 and click Create bucket.
+2.**Navigate to S3** and click **Create bucket.**
 
-3.Bucket Settings:
-
-    Bucket name: Enter a unique name (e.g., my-static-site-bucket).
-    Region: Choose your preferred region.
+3.**Bucket Settings:**
+        Bucket name: Enter a unique name (e.g., my-static-site-bucket).
+        Region: Choose your preferred region.
     
 4.Block Public Access Settings: Uncheck "Block all public access" and acknowledge the warning.
 
