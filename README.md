@@ -129,15 +129,27 @@ jobs:
 
     - name: Sync S3 bucket
       run: aws s3 sync . s3://my-static-site-bucket --delete
-Step 8: Add AWS Credentials to GitHub Secrets
-Go to your GitHub repository.
-Settings → Secrets and variables → Actions.
-New repository secret:
-AWS_ACCESS_KEY_ID: Enter your AWS access key ID.
-AWS_SECRET_ACCESS_KEY: Enter your AWS secret access key.
-Step 9: Commit and Push Your Code
-Commit your changes and push them to the main branch.
-GitHub Actions will trigger the deployment workflow, and your static site will be deployed to the S3 bucket.
-Step 10: Verify Deployment
-Visit your S3 bucket URL or CloudFront URL (if configured) to see your static website live.
+      
+### Step 8: Add AWS Credentials to GitHub Secrets
+
+1.Go to your GitHub repository.
+
+2.**Settings → Secrets and variables → Actions.**
+
+3.**New repository secret:**
+
+- AWS_ACCESS_KEY_ID: Enter your AWS access key ID.
+  
+- AWS_SECRET_ACCESS_KEY: Enter your AWS secret access key.
+  
+### Step 9: Commit and Push Your Code
+
+1. Commit your changes and push them to the main branch.
+   
+2. GitHub Actions will trigger the deployment workflow, and your static site will be deployed to the S3 bucket.
+   
+### Step 10: Verify Deployment
+
+1. Visit your S3 bucket URL or CloudFront URL (if configured) to see your static website live.
+
 By following these steps, you'll have a fully automated process for deploying your static website to AWS using GitHub Actions.
