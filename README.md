@@ -128,7 +128,7 @@ jobs:
         aws-region: us-east-1
 
     - name: Sync S3 bucket
-      run: aws s3 sync . s3://my-static-site-bucket --delete
+      run: aws s3 sync . s3://my-static-site-bucket1 --delete
 ```
   
 ### Step 8: Add AWS Credentials to GitHub Secrets
