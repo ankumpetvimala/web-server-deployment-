@@ -31,8 +31,7 @@ b. Set Up IAM Users, Roles, and Permissions
 ### Step 2: Design Architecture
 
 a. Design the Architecture
-
-    Plan for scalability, availability, fault tolerance, and performance.
+  Plan for scalability, availability, fault tolerance, and performance.
 
 b. Choose AWS Services
 
