@@ -16,51 +16,51 @@ Deploy a scalable web application on AWS Cloud using various AWS services, ensur
 ### Step 1: Setup AWS Account and Resources
 a. Create an AWS Account
 
-Sign up for AWS
+    Sign up for AWS
 
-Log in to your AWS Management Console.
+    Log in to your AWS Management Console.
 
 b. Set Up IAM Users, Roles, and Permissions
 
-Navigate to the IAM Console
+    Navigate to the IAM Console
 
-Create IAM users with appropriate permissions.
+    Create IAM users with appropriate permissions.
 
-Set up IAM roles for EC2, RDS, and other services.   
+    Set up IAM roles for EC2, RDS, and other services.   
 
 ### Step 2: Design Architecture
 
 a. Design the Architecture
 
-Plan for scalability, availability, fault tolerance, and performance.
+    Plan for scalability, availability, fault tolerance, and performance.
 
 b. Choose AWS Services
 
-EC2 for compute.
+    EC2 for compute.
 
-RDS for database storage.
+    RDS for database storage.
 
-S3 for static file storage.
+    S3 for static file storage.
 
-Elastic Load Balancing for distributing traffic.
+    Elastic Load Balancing for distributing traffic.
 
-Cloudwatch for logging and monitoring
+    Cloudwatch for logging and monitoring
 
-Auto Scaling for scaling resources.
+    Auto Scaling for scaling resources.
 
 ### Step 3: Provision Infrastructure
 
 a. Provision EC2 Instances
 
-Choose instance types, OS, and AMI.
+    Choose instance types, OS, and AMI.
 
-Configure security groups and key pairs.
+    Configure security groups and key pairs.
 
 b. Set Up RDS Instance
 
-Choose the database engine (e.g., MySQL, PostgreSQL, Aurora).
+    Choose the database engine (e.g., MySQL, PostgreSQL, Aurora).
 
-Configure security settings and backups.
+    Configure security settings and backups.
 
 ### Step 4: Create an S3 Bucket
 
@@ -117,7 +117,7 @@ Configure security settings and backups.
                   
 3. Save changes.
 
-### Step 4: Upload Your Static Site Files
+### Step 7: Upload Your Static Site Files
 
 1. **Click on the bucket name** to enter it.
 
@@ -126,7 +126,7 @@ Configure security settings and backups.
     - Add your index.html, styles.css, and other files.
     - Click **Upload.**
         
-### Step 7: Set Up AWS CloudFront (Optional)
+### Step 8: Set Up AWS CloudFront (Optional)
 
 1. Navigate to **CloudFront** and click **Create Distribution.**
 
@@ -142,13 +142,13 @@ Configure security settings and backups.
 
 6. **Create Distribution.**
 
-### Step 8: Create a GitHub Repository
+### Step 9: Create a GitHub Repository
 
 1. Go to GitHub and create a new repository.
 
 2. Clone the repository to your local machine and add your static site files.
    
-### Step 9: Set Up GitHub Actions for Deployment
+### Step 10: Set Up GitHub Actions for Deployment
 
 1. In your repository, create a `.github/workflows` directory.
 
@@ -182,7 +182,7 @@ jobs:
       run: aws s3 sync . s3://my-static-site-bucket1 --delete
 ```
   
-### Step 10: Add AWS Credentials to GitHub Secrets
+### Step 11: Add AWS Credentials to GitHub Secrets
 
 1. Go to your GitHub repository.
 
@@ -194,19 +194,19 @@ jobs:
   
       - `AWS_SECRET_ACCESS_KEY:` Enter your AWS secret access key.
   
-### Step 11: Commit and Push Your Code
+### Step 12: Commit and Push Your Code
 
 1. Commit your changes and push them to the `main` branch.
    
 2. GitHub Actions will trigger the deployment workflow, and your static site will be deployed to the S3 bucket.
    
-### Step 12: Verify Deployment
+### Step 13: Verify Deployment
 
 1. Visit your S3 bucket URL or CloudFront URL (if configured) to see your static website live.
 
 By following these steps, you'll have a fully automated process for deploying your static website to AWS using GitHub Actions.
 
-### Step 13: Configure Load Balancing and Auto Scaling
+### Step 14: Configure Load Balancing and Auto Scaling
 
 a. Set Up Elastic Load Balancer
 
@@ -216,7 +216,7 @@ b. Configure Auto Scaling Groups
 
 Set up auto-scaling policies based on demand and resource utilization.
 
-### Step 14: Monitoring and Logging
+### Step 15: Monitoring and Logging
 
 a. Set Up AWS CloudWatch
 
@@ -226,9 +226,9 @@ b. Configure CloudWatch Alarms and Logs
 
 Set up alarms, logs, and dashboards for proactive monitoring.
 
-### Step 15: Testing and Validation
+### Step 16: Testing and Validation
 
-  # Test the Web Application
+  # Test the Web Application #
 
   Done performance testing using Jmeter.
 
