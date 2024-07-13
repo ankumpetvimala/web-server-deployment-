@@ -210,25 +210,25 @@ By following these steps, you'll have a fully automated process for deploying yo
 
 a. Set Up Elastic Load Balancer
 
-Configure an ELB or ALB to distribute traffic.
+    Configure an ELB or ALB to distribute traffic.
 
 b. Configure Auto Scaling Groups
 
-Set up auto-scaling policies based on demand and resource utilization.
+    Set up auto-scaling policies based on demand and resource utilization.
 
 ### Step 15: Monitoring and Logging
 
 a. Set Up AWS CloudWatch
 
-Monitor EC2, RDS, load balancers, and application metrics.
+    Monitor EC2, RDS, load balancers, and application metrics.
 
 b. Configure CloudWatch Alarms and Logs
 
-Set up alarms, logs, and dashboards for proactive monitoring.
+    Set up alarms, logs, and dashboards for proactive monitoring.
 
 ### Step 16: Testing and Validation
 
-  # Test the Web Application #
+  **Test the Web Application**
 
   Done performance testing using Jmeter.
 
