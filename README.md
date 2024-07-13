@@ -1,5 +1,5 @@
 # Web-Application-Deployment
-## Task: Deploy a scalable web application on AWS cloud
+## Task: Deploy a scalable web application on AWS Cloud
 
 ![awshome](https://github.com/user-attachments/assets/a018ebf2-0b09-4bab-8e5c-16bf1966256f)
 
@@ -230,7 +230,7 @@ By following these steps, you'll have a fully automated process for deploying yo
 
   **Test the Web Application**
 
-     Done performance testing using Jmeter.
+    Done performance testing using Jmeter.
 
 ### Conclusion  
 
