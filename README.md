@@ -1,4 +1,4 @@
-# Web-Application-Deployment-
+# Web-Application-Deployment
 ## Task: Deploy a scalable web application on AWS cloud
 
 ![awshome](https://github.com/user-attachments/assets/a018ebf2-0b09-4bab-8e5c-16bf1966256f)
@@ -14,53 +14,53 @@ Deploy a scalable web application on AWS Cloud using various AWS services, ensur
 3. **GitHub Account:** Create a repository for your static site.
 
 ### Step 1: Setup AWS Account and Resources
-a. Create an AWS Account
+**a. Create an AWS Account**
 
-    Sign up for AWS
+ Sign up for AWS
 
-    Log in to your AWS Management Console.
+ Log in to your AWS Management Console.
 
-b. Set Up IAM Users, Roles, and Permissions
+**b. Set Up IAM Users, Roles, and Permissions**
 
-    Navigate to the IAM Console
+ Navigate to the IAM Console
 
-    Create IAM users with appropriate permissions.
+ Create IAM users with appropriate permissions.
 
-    Set up IAM roles for EC2, RDS, and other services.   
+ Set up IAM roles for EC2, RDS, and other services.   
 
 ### Step 2: Design Architecture
 
-a. Design the Architecture
+**a. Design the Architecture**
   
    Plan for scalability, availability, fault tolerance, and performance.
 
-b. Choose AWS Services
+**b. Choose AWS Services**
 
- EC2 for compute.
+  EC2 for compute.
 
- RDS for database storage.
+  RDS for database storage.
 
- S3 for static file storage.
+  S3 for static file storage.
 
- Elastic Load Balancing for distributing traffic.
+  Elastic Load Balancing for distributing traffic.
 
- Cloudwatch for logging and monitoring
+  Cloudwatch for logging and monitoring
 
- Auto Scaling for scaling resources.
+  Auto Scaling for scaling resources.
 
 ### Step 3: Provision Infrastructure
 
-a. Provision EC2 Instances
+**a. Provision EC2 Instances**
 
-    Choose instance types, OS, and AMI.
+  Choose instance types, OS, and AMI.
 
-    Configure security groups and key pairs.
+  Configure security groups and key pairs.
 
-b. Set Up RDS Instance
+**b. Set Up RDS Instance**
 
-    Choose the database engine (e.g., MySQL, PostgreSQL, Aurora).
+ Choose the database engine (e.g., MySQL, PostgreSQL, Aurora).
 
-    Configure security settings and backups.
+ Configure security settings and backups.
 
 ### Step 4: Create an S3 Bucket
 
@@ -208,29 +208,29 @@ By following these steps, you'll have a fully automated process for deploying yo
 
 ### Step 14: Configure Load Balancing and Auto Scaling
 
-a. Set Up Elastic Load Balancer
+**a. Set Up Elastic Load Balancer**
 
-    Configure an ELB or ALB to distribute traffic.
+ Configure an ELB or ALB to distribute traffic.
 
-b. Configure Auto Scaling Groups
+**b. Configure Auto Scaling Groups**
 
-    Set up auto-scaling policies based on demand and resource utilization.
+ Set up auto-scaling policies based on demand and resource utilization.
 
 ### Step 15: Monitoring and Logging
 
-a. Set Up AWS CloudWatch
+**a. Set Up AWS CloudWatch**
 
-    Monitor EC2, RDS, load balancers, and application metrics.
+ Monitor EC2, RDS, load balancers, and application metrics.
 
-b. Configure CloudWatch Alarms and Logs
+**b. Configure CloudWatch Alarms and Logs**
 
-    Set up alarms, logs, and dashboards for proactive monitoring.
+ Set up alarms, logs, and dashboards for proactive monitoring.
 
 ### Step 16: Testing and Validation
 
   **Test the Web Application**
 
-    Done performance testing using Jmeter.
+     Done performance testing using Jmeter.
 
 ### Conclusion  
 
