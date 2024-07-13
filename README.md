@@ -230,7 +230,7 @@ By following these steps, you'll have a fully automated process for deploying yo
 
   **Test the Web Application**
 
-    Done performance testing using Jmeter.
+   Done performance testing using Jmeter.
 
 ### Conclusion  
 
