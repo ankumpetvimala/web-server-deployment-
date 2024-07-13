@@ -230,7 +230,7 @@ b. Configure CloudWatch Alarms and Logs
 
   **Test the Web Application**
 
-  Done performance testing using Jmeter.
+    Done performance testing using Jmeter.
 
 ### Conclusion  
 
