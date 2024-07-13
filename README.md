@@ -31,21 +31,22 @@ b. Set Up IAM Users, Roles, and Permissions
 ### Step 2: Design Architecture
 
 a. Design the Architecture
-  Plan for scalability, availability, fault tolerance, and performance.
+  
+   Plan for scalability, availability, fault tolerance, and performance.
 
 b. Choose AWS Services
 
-    EC2 for compute.
+ EC2 for compute.
 
-    RDS for database storage.
+ RDS for database storage.
 
-    S3 for static file storage.
+ S3 for static file storage.
 
-    Elastic Load Balancing for distributing traffic.
+ Elastic Load Balancing for distributing traffic.
 
-    Cloudwatch for logging and monitoring
+ Cloudwatch for logging and monitoring
 
-    Auto Scaling for scaling resources.
+ Auto Scaling for scaling resources.
 
 ### Step 3: Provision Infrastructure
 
